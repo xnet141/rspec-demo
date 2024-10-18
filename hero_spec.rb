@@ -8,4 +8,10 @@ describe Hero do
     expect(hero.name).to eq 'Mike' # hero.name == 'Mike'
   end
 
+  it "can power up" do
+    hero = Hero.new 'mike', 50
+
+    expect(hero.power_up).to eq 60
+  end
+
 end
