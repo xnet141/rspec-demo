@@ -18,7 +18,7 @@ class Car
 
 end
 
-car = Car.new
+# car = Car.new
 #car.add_fuel 10
-puts car.add_fuel 10
-puts "Range is #{car.range}"
+# puts car.add_fuel 10
+# puts "Range is #{car.range}"
